@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+}
+
+.heading{
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    border-radius: 0px 0px 50px 50px;
+    letter-spacing: 3px;
+    background-color: transparent;
+    box-shadow: 2px 2px 2px 2px blueviolet;
+    color: white;
+    text-shadow: 5px 2px 4px ;
+    text-decoration: underline;
+    text-underline-offset: 8px;
+}
+
+.clock{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: linear-gradient(to right, blue, purple);
+}
+
+
+
+#timeZone{
+    font-size: 40px;
+    padding: 22px;
+    color: white;
+    background-color: transparent;
+    box-shadow: 2px 5px 5px 5px blueviolet;
+    border-radius: 5px;
+}
